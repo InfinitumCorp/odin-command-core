@@ -1,0 +1,20 @@
+{
+  "name": "odin-cloudflare-draft",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "cf deploy",
+    "admin": "node scripts/admin.mjs"
+  },
+  "dependencies": {
+    "postgres": "^4.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^2.0.0-beta.v.12",
+    "@cloudflare/workers-types": "^5.20261107.1",
+    "@vitejs/plugin-react": "^5.2.0",
+    "cf": "^1.0.0-beta.28",
+    "vite": "^7.3.7"
+  }
+}

@@ -1,0 +1,8 @@
+// JSON gateway sample: [HRVST] and ÆTHER mesh reports inside the default exercise AO.
+{"source":"json:hrvst-gw","kind":"position","callsign":"HRVST-ALPHA","lat":38.86,"lon":-77.15,"detail":"position report"}
+{"source":"json:hrvst-gw","kind":"field-report","callsign":"HRVST-ALPHA","lat":38.875,"lon":-77.12,"detail":"two vehicles moving east on the river road","confidence":0.6,"sourceRef":"hrv-a-0001"}
+{"source":"json:hrvst-gw","kind":"field-report","callsign":"HRVST-ALPHA","lat":38.877,"lon":-77.118,"detail":"same vehicles stopped at the bridge","confidence":0.65,"sourceRef":"hrv-a-0002"}
+{"source":"json:aether-mesh","kind":"comms-degraded","callsign":"HRVST-BRAVO","lat":38.81,"lon":-76.70,"detail":"HRVST-BRAVO mesh link below threshold, 2 of 3 relays lost"}
+{"source":"json:hrvst-gw","kind":"resupply-request","callsign":"HRVST-BRAVO","lat":38.812,"lon":-76.702,"detail":"HRVST-BRAVO requests water and batteries"}
+{"source":"json:hrvst-gw","kind":"contact","lat":39.6,"lon":-77.1,"detail":"this one is outside the AO and must be rejected"}
+{"source":"json:hrvst-gw","kind":"contact","lat":38.9,"detail":"missing lon, must be rejected"}

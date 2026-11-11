@@ -1,0 +1,29 @@
+{
+  "name": "odin-command-core",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && vite build --ssr src/server/main.ts --outDir dist-server --target node22",
+    "start": "node dist-server/main.js",
+    "test": "vitest run",
+    "eval:scalvs": "vite-node --config vite.tools.config.ts scripts/eval-scalvs.ts --",
+    "firmament": "vite-node --config vite.tools.config.ts scripts/firmament.ts --"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.5.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}

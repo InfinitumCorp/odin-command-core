@@ -1,0 +1,25 @@
+<!-- CoT sample (TAK/ATAK style) inside the default exercise AO. -->
+<event version="2.0" uid="ANDROID-hrv-b" type="a-f-G-U-C" time="2026-11-06T06:10:00Z" start="2026-11-06T06:10:00Z" stale="2026-11-06T06:15:00Z" how="m-g">
+  <point lat="38.808" lon="-76.705" hae="20" ce="5" le="5"/>
+  <detail><contact callsign="HRVST-BRAVO"/></detail>
+</event>
+<event version="2.0" uid="sensor-07-trk-118" type="a-u-G" time="2026-11-06T06:11:00Z" start="2026-11-06T06:11:00Z" stale="2026-11-06T06:20:00Z" how="m-r">
+  <point lat="38.95" lon="-76.95" hae="0" ce="60" le="9999999"/>
+  <detail><remarks>ground mover, 2 returns &amp; slow</remarks></detail>
+</event>
+<event version="2.0" uid="civ-bus-3" type="a-n-G-E-V" time="2026-11-06T06:12:00Z" start="2026-11-06T06:12:00Z" stale="2026-11-06T06:30:00Z" how="h-e">
+  <point lat="38.70" lon="-77.30" hae="0" ce="25" le="9999999"/>
+  <detail><contact callsign="School bus 3"/></detail>
+</event>
+<event version="2.0" uid="allied-patrol-2" type="a-f-G-U-C-I" time="2026-11-06T06:13:00Z" start="2026-11-06T06:13:00Z" stale="2026-11-06T06:18:00Z" how="m-g">
+  <point lat="39.05" lon="-77.40" hae="0" ce="8" le="10"/>
+  <detail><contact callsign="ALLIED-2"/><remarks>allied patrol, not on the ODIN network</remarks></detail>
+</event>
+<event version="2.0" uid="medevac-1" type="b-r-f-h-c" time="2026-11-06T06:14:00Z" start="2026-11-06T06:14:00Z" stale="2026-11-06T07:14:00Z" how="h-e">
+  <point lat="38.861" lon="-77.149" hae="0" ce="10" le="10"/>
+  <detail><contact callsign="HRVST-ALPHA"/><remarks>1 urgent, ankle injury, LZ clear</remarks></detail>
+</event>
+<event version="2.0" uid="chat-1" type="b-t-f" time="2026-11-06T06:15:00Z" start="2026-11-06T06:15:00Z" stale="2026-11-06T06:20:00Z" how="h-e">
+  <point lat="38.86" lon="-77.15" hae="0" ce="9999999" le="9999999"/>
+  <detail><remarks>GeoChat message: unsupported type, must be rejected</remarks></detail>
+</event>
